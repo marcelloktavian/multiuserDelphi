@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2021/02/22 10:52:10.596,=C:\Users\marce\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/02/22 10:53:00.381,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\login.dfm=C:\Users\marce\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2021/02/22 10:53:00.381,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\login.pas=C:\Users\marce\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021/02/22 10:53:30.306,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\multiuserDelphi.dproj=C:\Users\marce\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2021/02/22 11:12:16.810,=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.pas</Transaction>
-    <Transaction>2021/02/22 11:12:26.120,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\menu.pas=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.pas</Transaction>
-    <Transaction>2021/02/22 11:12:26.120,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\menu.dfm=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.dfm</Transaction>
-    <Transaction>2021/02/22 11:43:10.288,=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.pas</Transaction>
-    <Transaction>2021/02/22 11:43:38.806,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\mdi2.pas=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.pas</Transaction>
-    <Transaction>2021/02/22 11:43:38.806,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\mdi2.dfm=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.dfm</Transaction>
+    <Transaction>2021/02/22 10:52:10.000.596,=C:\Users\marce\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/22 10:53:00.000.381,C:\Users\marce\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\login.pas</Transaction>
+    <Transaction>2021/02/22 10:53:00.000.381,C:\Users\marce\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\login.dfm</Transaction>
+    <Transaction>2021/02/22 10:53:30.000.306,C:\Users\marce\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\multiuserDelphi.dproj</Transaction>
+    <Transaction>2021/02/22 11:12:16.000.810,=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.pas</Transaction>
+    <Transaction>2021/02/22 11:12:26.000.120,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.pas=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\menu.pas</Transaction>
+    <Transaction>2021/02/22 11:12:26.000.120,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.dfm=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\menu.dfm</Transaction>
+    <Transaction>2021/02/22 11:43:10.000.288,=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.pas</Transaction>
+    <Transaction>2021/02/22 11:43:38.000.806,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.dfm=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\mdi2.dfm</Transaction>
+    <Transaction>2021/02/22 11:43:38.000.806,C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\Unit2.pas=C:\Users\marce\Documents\Embarcadero\Studio\Projects\multiuserDelphi\mdi2.pas</Transaction>
   </Transactions>
 </BorlandProject>
