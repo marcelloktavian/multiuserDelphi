@@ -17,7 +17,6 @@ type
     // procedure Button1Click(Sender: TObject);
     procedure MDIFORM1Click(Sender: TObject);
     procedure MDIFORM21Click(Sender: TObject);
-    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,11 +32,6 @@ implementation
 uses menu, mdi2;
 
 {$R *.dfm}
-
-procedure Tfrmlogin.Button1Click(Sender: TObject);
-begin
-    ShowMessage('Test MDI SKUY');
-end;
 
 procedure Tfrmlogin.MDIFORM1Click(Sender: TObject);
 begin
