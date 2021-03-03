@@ -16,17 +16,36 @@ object frmlogin: Tfrmlogin
   WindowState = wsMaximized
   PixelsPerInch = 96
   TextHeight = 13
-  object Button1: TButton
-    Left = 24
-    Top = 16
-    Width = 75
-    Height = 25
-    Caption = 'Button1'
+  object ToolBar1: TToolBar
+    Left = 0
+    Top = 0
+    Width = 554
+    Height = 29
+    ButtonHeight = 25
+    Caption = 'ToolBar1'
     TabOrder = 0
+    object Button1: TButton
+      Left = 0
+      Top = 0
+      Width = 75
+      Height = 25
+      Caption = 'Button1'
+      TabOrder = 0
+      OnClick = Button1Click
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 360
+    Width = 554
+    Height = 63
+    Color = clCaptionText
+    Panels = <>
+    ExplicitLeft = -16
+    ExplicitTop = 304
   end
   object MainMenu1: TMainMenu
-    Left = 112
-    Top = 56
+    Left = 88
     object Contoh1: TMenuItem
       Caption = 'Contoh'
       object MDIFORM1: TMenuItem
@@ -36,6 +55,17 @@ object frmlogin: Tfrmlogin
       object MDIFORM21: TMenuItem
         Caption = 'MDI FORM 2'
         OnClick = MDIFORM21Click
+      end
+    end
+    object WINDOW1: TMenuItem
+      Caption = 'Setting'
+      object ILE1: TMenuItem
+        Caption = 'Tile'
+        OnClick = ILE1Click
+      end
+      object CASCADE1: TMenuItem
+        Caption = 'Cascade'
+        OnClick = CASCADE1Click
       end
     end
   end

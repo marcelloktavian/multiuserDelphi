@@ -5,19 +5,27 @@ interface
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
   System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Menus;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Menus, Vcl.ToolWin,
+  Vcl.ComCtrls;
 
 type
   Tfrmlogin = class(TForm)
     MainMenu1: TMainMenu;
     Contoh1: TMenuItem;
     MDIFORM1: TMenuItem;
-    Button1: TButton;
     MDIFORM21: TMenuItem;
+    ToolBar1: TToolBar;
+    StatusBar1: TStatusBar;
+    WINDOW1: TMenuItem;
+    ILE1: TMenuItem;
+    CASCADE1: TMenuItem;
+    Button1: TButton;
     // procedure Button1Click(Sender: TObject);
     procedure MDIFORM1Click(Sender: TObject);
     procedure MDIFORM21Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
+    procedure ILE1Click(Sender: TObject);
+    procedure CASCADE1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -37,6 +45,16 @@ uses menu, mdi2;
 procedure Tfrmlogin.Button1Click(Sender: TObject);
 begin
   ShowMessage('Test Data');
+end;
+
+procedure Tfrmlogin.CASCADE1Click(Sender: TObject);
+begin
+Cascade;
+end;
+
+procedure Tfrmlogin.ILE1Click(Sender: TObject);
+begin
+          Tile;
 end;
 
 procedure Tfrmlogin.MDIFORM1Click(Sender: TObject);
