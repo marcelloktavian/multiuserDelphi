@@ -16,6 +16,16 @@ object frmlogin: Tfrmlogin
   WindowState = wsMaximized
   PixelsPerInch = 96
   TextHeight = 13
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 360
+    Width = 554
+    Height = 63
+    Color = clCaptionText
+    Panels = <>
+    ExplicitLeft = -16
+    ExplicitTop = 304
+  end
   object ToolBar1: TToolBar
     Left = 0
     Top = 0
@@ -23,6 +33,8 @@ object frmlogin: Tfrmlogin
     Height = 29
     ButtonHeight = 25
     Caption = 'ToolBar1'
+    Color = clCream
+    ParentColor = False
     TabOrder = 0
     object Button1: TButton
       Left = 0
@@ -33,16 +45,6 @@ object frmlogin: Tfrmlogin
       TabOrder = 0
       OnClick = Button1Click
     end
-  end
-  object StatusBar1: TStatusBar
-    Left = 0
-    Top = 360
-    Width = 554
-    Height = 63
-    Color = clCaptionText
-    Panels = <>
-    ExplicitLeft = -16
-    ExplicitTop = 304
   end
   object MainMenu1: TMainMenu
     Left = 88

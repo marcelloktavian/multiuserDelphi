@@ -21,4 +21,18 @@ object frmMdi2: TfrmMdi2
     Height = 13
     Caption = 'mdiForm2'
   end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 625
+    Height = 369
+    Align = alClient
+    Caption = 'Panel1'
+    Color = clAqua
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = -8
+    ExplicitTop = -6
+    ExplicitHeight = 367
+  end
 end
