@@ -31,8 +31,5 @@ object frmMdi2: TfrmMdi2
     Color = clAqua
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = -8
-    ExplicitTop = -6
-    ExplicitHeight = 367
   end
 end

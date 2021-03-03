@@ -9,7 +9,7 @@ uses
   Vcl.ComCtrls;
 
 type
-  Tfrmlogin = class(TForm)
+  TfrmMdi4 = class(TForm)
     MainMenu1: TMainMenu;
     Contoh1: TMenuItem;
     MDIFORM1: TMenuItem;
@@ -20,12 +20,16 @@ type
     ILE1: TMenuItem;
     CASCADE1: TMenuItem;
     Button1: TButton;
+    MDIFORM31: TMenuItem;
+    MDIFORM41: TMenuItem;
     // procedure Button1Click(Sender: TObject);
     procedure MDIFORM1Click(Sender: TObject);
     procedure MDIFORM21Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure ILE1Click(Sender: TObject);
     procedure CASCADE1Click(Sender: TObject);
+    procedure MDIFORM31Click(Sender: TObject);
+    procedure MDIFORM41Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,31 +37,31 @@ type
   end;
 
 var
-  frmlogin: Tfrmlogin;
+  frmMdi4: TfrmMdi4;
   nama: string;
 
 implementation
 
-uses menu, mdi2;
+uses menu, mdi2, mdi3, mdi4;
 
 {$R *.dfm}
 
-procedure Tfrmlogin.Button1Click(Sender: TObject);
+procedure TfrmMdi4.Button1Click(Sender: TObject);
 begin
   ShowMessage('Test Data');
 end;
 
-procedure Tfrmlogin.CASCADE1Click(Sender: TObject);
+procedure TfrmMdi4.CASCADE1Click(Sender: TObject);
 begin
 Cascade;
 end;
 
-procedure Tfrmlogin.ILE1Click(Sender: TObject);
+procedure TfrmMdi4.ILE1Click(Sender: TObject);
 begin
           Tile;
 end;
 
-procedure Tfrmlogin.MDIFORM1Click(Sender: TObject);
+procedure TfrmMdi4.MDIFORM1Click(Sender: TObject);
 begin
   if (Application.FindComponent('frmMenu') = nil) then
   begin
@@ -68,11 +72,11 @@ begin
   end
   else
   begin
-    frmlogin.BringToFront;
+    frmMenu.BringToFront;
   end;
 end;
 
-procedure Tfrmlogin.MDIFORM21Click(Sender: TObject);
+procedure TfrmMdi4.MDIFORM21Click(Sender: TObject);
 begin
   if (Application.FindComponent('frmMdi2') = nil) then
   begin
@@ -84,6 +88,36 @@ begin
   else
   begin
     frmMdi2.BringToFront;
+  end;
+end;
+
+procedure TfrmMdi4.MDIFORM31Click(Sender: TObject);
+begin
+  if (Application.FindComponent('frmMdi3') = nil) then
+  begin
+    frmMdi3 := TfrmMdi3.Create(Application);
+    frmMdi3.FormStyle := fsMDIChild;
+    frmMdi3.BringToFront;
+    frmMdi3.Show;
+  end
+  else
+  begin
+    frmMdi3.BringToFront;
+  end;
+end;
+
+procedure TfrmMdi4.MDIFORM41Click(Sender: TObject);
+begin
+    if (Application.FindComponent('frmMdi4') = nil) then
+  begin
+    frmMdi4 := TfrmMdi4.Create(Application);
+    frmMdi4.FormStyle := fsMDIChild;
+    frmMdi4.BringToFront;
+    frmMdi4.Show;
+  end
+  else
+  begin
+    frmMdi4.BringToFront;
   end;
 end;
 

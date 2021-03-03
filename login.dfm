@@ -1,7 +1,7 @@
-object frmlogin: Tfrmlogin
+object frmMdi4: TfrmMdi4
   Left = 0
   Top = 0
-  Caption = 'Login'
+  Caption = 'form mdi 4'
   ClientHeight = 423
   ClientWidth = 554
   Color = clBtnFace
@@ -23,8 +23,6 @@ object frmlogin: Tfrmlogin
     Height = 63
     Color = clCaptionText
     Panels = <>
-    ExplicitLeft = -16
-    ExplicitTop = 304
   end
   object ToolBar1: TToolBar
     Left = 0
@@ -57,6 +55,14 @@ object frmlogin: Tfrmlogin
       object MDIFORM21: TMenuItem
         Caption = 'MDI FORM 2'
         OnClick = MDIFORM21Click
+      end
+      object MDIFORM31: TMenuItem
+        Caption = 'MDI FORM 3'
+        OnClick = MDIFORM31Click
+      end
+      object MDIFORM41: TMenuItem
+        Caption = 'MDI FORM 4'
+        OnClick = MDIFORM41Click
       end
     end
     object WINDOW1: TMenuItem
