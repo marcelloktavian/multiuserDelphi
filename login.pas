@@ -9,7 +9,7 @@ uses
   Vcl.ComCtrls;
 
 type
-  TfrmMdi4 = class(TForm)
+  Tfrmlogin = class(TForm)
     MainMenu1: TMainMenu;
     Contoh1: TMenuItem;
     MDIFORM1: TMenuItem;
@@ -37,7 +37,7 @@ type
   end;
 
 var
-  frmMdi4: TfrmMdi4;
+  frmlogin: Tfrmlogin;
   nama: string;
 
 implementation
@@ -46,22 +46,22 @@ uses menu, mdi2, mdi3, mdi4;
 
 {$R *.dfm}
 
-procedure TfrmMdi4.Button1Click(Sender: TObject);
+procedure Tfrmlogin.Button1Click(Sender: TObject);
 begin
   ShowMessage('Test Data');
 end;
 
-procedure TfrmMdi4.CASCADE1Click(Sender: TObject);
+procedure Tfrmlogin.CASCADE1Click(Sender: TObject);
 begin
 Cascade;
 end;
 
-procedure TfrmMdi4.ILE1Click(Sender: TObject);
+procedure Tfrmlogin.ILE1Click(Sender: TObject);
 begin
           Tile;
 end;
 
-procedure TfrmMdi4.MDIFORM1Click(Sender: TObject);
+procedure Tfrmlogin.MDIFORM1Click(Sender: TObject);
 begin
   if (Application.FindComponent('frmMenu') = nil) then
   begin
@@ -76,7 +76,7 @@ begin
   end;
 end;
 
-procedure TfrmMdi4.MDIFORM21Click(Sender: TObject);
+procedure Tfrmlogin.MDIFORM21Click(Sender: TObject);
 begin
   if (Application.FindComponent('frmMdi2') = nil) then
   begin
@@ -91,7 +91,7 @@ begin
   end;
 end;
 
-procedure TfrmMdi4.MDIFORM31Click(Sender: TObject);
+procedure Tfrmlogin.MDIFORM31Click(Sender: TObject);
 begin
   if (Application.FindComponent('frmMdi3') = nil) then
   begin
@@ -106,7 +106,7 @@ begin
   end;
 end;
 
-procedure TfrmMdi4.MDIFORM41Click(Sender: TObject);
+procedure Tfrmlogin.MDIFORM41Click(Sender: TObject);
 begin
     if (Application.FindComponent('frmMdi4') = nil) then
   begin

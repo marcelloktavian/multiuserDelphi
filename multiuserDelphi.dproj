@@ -101,7 +101,7 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="login.pas">
-            <Form>frmMdi4</Form>
+            <Form>frmlogin</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="menu.pas">
@@ -113,7 +113,7 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="mdi4.pas">
-            <Form>Form2</Form>
+            <Form>frmMdi4</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="mdi3.pas">

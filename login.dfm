@@ -1,7 +1,7 @@
-object frmMdi4: TfrmMdi4
+object frmlogin: Tfrmlogin
   Left = 0
   Top = 0
-  Caption = 'form mdi 4'
+  Caption = 'login'
   ClientHeight = 423
   ClientWidth = 554
   Color = clBtnFace
