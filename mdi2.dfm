@@ -139,4 +139,154 @@ object frmMdi2: TfrmMdi2
       ExplicitHeight = 250
     end
   end
+  object ADOConnection1: TADOConnection
+    Connected = True
+    ConnectionString = 
+      'FILE NAME=C:\Users\aditya\Documents\GitHub\multiuserDelphi\konek' +
+      'si.udl'
+    LoginPrompt = False
+    Left = 409
+    Top = 321
+  end
+  object master: TADOQuery
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from tblso')
+    Left = 521
+    Top = 297
+    object masterid_so: TStringField
+      FieldName = 'id_so'
+      FixedChar = True
+      Size = 15
+    end
+    object masterkode: TStringField
+      FieldName = 'kode'
+      FixedChar = True
+      Size = 15
+    end
+    object mastertgl_trans: TDateField
+      FieldName = 'tgl_trans'
+    end
+    object masterid_cust: TStringField
+      FieldName = 'id_cust'
+      FixedChar = True
+      Size = 15
+    end
+    object masterTotalKG: TFloatField
+      FieldName = 'TotalKG'
+    end
+    object masterTotalQty: TFloatField
+      FieldName = 'TotalQty'
+    end
+    object masterTotalFaktur: TFloatField
+      FieldName = 'TotalFaktur'
+    end
+    object masterTotalDisc: TFloatField
+      FieldName = 'TotalDisc'
+    end
+    object masterUangMuka: TFloatField
+      FieldName = 'UangMuka'
+    end
+    object masterPiutang: TFloatField
+      FieldName = 'Piutang'
+    end
+    object masterKeterangan: TStringField
+      FieldName = 'Keterangan'
+      FixedChar = True
+      Size = 200
+    end
+    object masterstatus: TStringField
+      FieldName = 'status'
+      FixedChar = True
+      Size = 1
+    end
+    object masterlastmodified: TDateTimeField
+      FieldName = 'lastmodified'
+    end
+    object masteruser: TStringField
+      FieldName = 'user'
+      FixedChar = True
+      Size = 30
+    end
+    object masterarchive: TStringField
+      FieldName = 'archive'
+      FixedChar = True
+      Size = 1
+    end
+  end
+  object detail: TADOQuery
+    Connection = ADOConnection1
+    CursorType = ctStatic
+    Parameters = <>
+    SQL.Strings = (
+      'select * from tblsodet')
+    Left = 601
+    Top = 313
+    object detailid_SOdet: TAutoIncField
+      FieldName = 'id_SOdet'
+      ReadOnly = True
+    end
+    object detailid_so: TStringField
+      FieldName = 'id_so'
+      FixedChar = True
+      Size = 15
+    end
+    object detailid_grey: TStringField
+      FieldName = 'id_grey'
+      FixedChar = True
+      Size = 15
+    end
+    object detailid_cust: TStringField
+      FieldName = 'id_cust'
+      FixedChar = True
+      Size = 15
+    end
+    object detailid_w: TStringField
+      FieldName = 'id_w'
+      FixedChar = True
+      Size = 15
+    end
+    object detailid_jw: TStringField
+      FieldName = 'id_jw'
+      FixedChar = True
+      Size = 15
+    end
+    object detailkg: TFloatField
+      FieldName = 'kg'
+    end
+    object detailqty: TFloatField
+      FieldName = 'qty'
+    end
+    object detailhargajual: TFloatField
+      FieldName = 'hargajual'
+    end
+    object detailsubtotal: TFloatField
+      FieldName = 'subtotal'
+    end
+    object detailsetting: TIntegerField
+      FieldName = 'setting'
+    end
+    object detailketerangan: TStringField
+      FieldName = 'keterangan'
+      FixedChar = True
+      Size = 200
+    end
+    object detailhardener: TFloatField
+      FieldName = 'hardener'
+    end
+    object detailsoftener: TFloatField
+      FieldName = 'softener'
+    end
+    object detailfiller: TFloatField
+      FieldName = 'filler'
+    end
+    object detailjasapo: TIntegerField
+      FieldName = 'jasapo'
+    end
+    object detaillastmodified: TDateTimeField
+      FieldName = 'lastmodified'
+    end
+  end
 end
