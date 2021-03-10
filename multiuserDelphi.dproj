@@ -120,6 +120,30 @@
             <Form>frmMdi3</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="mdi5.pas">
+            <Form>frmMdi5</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="mdi6.pas">
+            <Form>frmMdi6</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="mdi7.pas">
+            <Form>frmMdi7</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="mdi8.pas">
+            <Form>frmMdi8</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="mdi9.pas">
+            <Form>frmMdi9</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="mdi10.pas">
+            <Form>frmMdi10</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>

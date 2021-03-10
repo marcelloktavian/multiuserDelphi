@@ -4,12 +4,14 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Grids,
+  AdvObj, BaseGrid, AdvGrid;
 
 type
   TfrmMdi2 = class(TForm)
     Label1: TLabel;
     Panel1: TPanel;
+    AdvStringGrid1: TAdvStringGrid;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
     { Private declarations }

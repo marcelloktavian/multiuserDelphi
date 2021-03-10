@@ -1,0 +1,31 @@
+object frmMdi8: TfrmMdi8
+  Left = 0
+  Top = 0
+  Caption = 'mdi8'
+  ClientHeight = 242
+  ClientWidth = 472
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 472
+    Height = 242
+    Align = alClient
+    Caption = 'Panel1'
+    Color = clAppWorkSpace
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = 240
+    ExplicitTop = 136
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+  end
+end

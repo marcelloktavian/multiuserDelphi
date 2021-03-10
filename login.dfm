@@ -64,6 +64,30 @@ object frmlogin: Tfrmlogin
         Caption = 'MDI FORM 4'
         OnClick = MDIFORM41Click
       end
+      object MDIFORM51: TMenuItem
+        Caption = 'MDI FORM 5'
+        OnClick = MDIFORM51Click
+      end
+      object MDIFORM61: TMenuItem
+        Caption = 'MDI FORM 6'
+        OnClick = MDIFORM61Click
+      end
+      object MDIFORM71: TMenuItem
+        Caption = 'MDI FORM 7'
+        OnClick = MDIFORM71Click
+      end
+      object MDIFORM81: TMenuItem
+        Caption = 'MDI FORM 8'
+        OnClick = MDIFORM81Click
+      end
+      object MDIFORM191: TMenuItem
+        Caption = 'MDI FORM 9'
+        OnClick = MDIFORM191Click
+      end
+      object MDIFORM101: TMenuItem
+        Caption = 'MDI FORM 10'
+        OnClick = MDIFORM101Click
+      end
     end
     object WINDOW1: TMenuItem
       Caption = 'Setting'
