@@ -64,7 +64,7 @@ begin
   AdvStringGrid1.MergeCells(1, 6, 4, 1);
   // add subgrid
   AdvStringGrid1.CellControls[1, 6] := AdvStringGrid2;
-//
+
   // add node
   AdvStringGrid1.AddNode(7, 2);
   // set row heights

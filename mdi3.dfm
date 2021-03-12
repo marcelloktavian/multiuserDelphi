@@ -27,7 +27,7 @@ object frmMdi3: TfrmMdi3
     TabOrder = 0
     object AdvStringGrid1: TAdvStringGrid
       Left = 40
-      Top = 24
+      Top = 16
       Width = 713
       Height = 329
       Cursor = crDefault
