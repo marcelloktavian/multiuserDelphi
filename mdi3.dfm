@@ -25,8 +25,6 @@ object frmMdi3: TfrmMdi3
     Color = clYellow
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 774
-    ExplicitHeight = 424
     object AdvStringGrid1: TAdvStringGrid
       Left = 40
       Top = 16
