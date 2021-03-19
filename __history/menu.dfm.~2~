@@ -1,10 +1,9 @@
 object frmMenu: TfrmMenu
   Left = 0
   Top = 0
-  Align = alClient
   Caption = 'Menu Utama'
-  ClientHeight = 665
-  ClientWidth = 870
+  ClientHeight = 377
+  ClientWidth = 701
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,15 +18,16 @@ object frmMenu: TfrmMenu
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 870
-    Height = 665
+    Width = 701
+    Height = 377
     Align = alClient
     Caption = 'Panel1'
     Color = clRed
     ParentBackground = False
     TabOrder = 0
-    ExplicitWidth = 701
-    ExplicitHeight = 377
+    ExplicitTop = 1
+    ExplicitWidth = 681
+    ExplicitHeight = 360
     object Label1: TLabel
       Left = 111
       Top = 28
